@@ -1,3 +1,14 @@
+body {
+    background-color: #0D1117;
+    color: #fff;
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
 .openings-title {
     font-size: 2.5 rem;
     font-weight: 900;
@@ -6,5 +17,13 @@
 }
 
 .openings-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 50px;
     margin: 50px;
+    width: calc(100vw - 100px);
+    height: auto;
 }

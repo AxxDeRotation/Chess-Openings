@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Caro-Kann",
+        "description": "The Caro-Kann is a simple but solid opening for black to fight for the center at low and high levels.",
+        "moves": "c6. d4."
+    },
+    {
+        "name": "Ruy Lopez",
+        "description": "One of the oldest and most traditional openings, offering a fight for control over the center.",
+        "moves": "e4. e5. Nf3. Nc6. Bb5."
+    },
+    {
+        "name": "Sicilian Defense",
+        "description": "A sharp and aggressive opening for black, aiming to counter white's central pawn with a flank pawn.",
+        "moves": "e4. c5."
+    },
+    {
+        "name": "French Defense",
+        "description": "Black's response to 1.e4 with a central pawn move, offering a solid and flexible setup.",
+        "moves": "e4. e6."
+    },
+    {
+        "name": "King's Indian Defense",
+        "description": "A hypermodern opening where black allows white to build a strong central pawn structure, aiming to counterattack later.",
+        "moves": "d4. Nf6. c4. g6."
+    }
+]

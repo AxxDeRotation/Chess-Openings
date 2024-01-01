@@ -1,12 +1,18 @@
 <script>
     import opening_image from "$lib/img/chessboard_red.png";
+    /** @type {string} */
+    export let name;
+    /** @type {string} */
+    export let description;
+    /** @type {string} */
+    export let moves;
 </script>
 
 <div class="container">
-    <h2>The Caro-Kann</h2>
-    <p>The Caro-Kann is a chess opening for Black against 1. e4. It is a solid opening for Black, and is a good choice for beginners.</p>
-    <img src={opening_image} alt="Caro-Kenn Chessboard">
-    <p>c6. e5.</p>
+    <h2>{name}</h2>
+    <p>{description}</p>
+    <img src={opening_image} alt="">
+    <p>{moves}</p>
 </div>
 
 <style>
@@ -16,8 +22,8 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
-        width: 300px;
-        height: 350px;
+        width: 320px;
+        height: 380px;
         background-color: transparent;
         border: 1px solid #BA5646;
         border-radius: 5px;
