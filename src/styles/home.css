@@ -15,7 +15,6 @@ body {
 .presentation img {
     width: 80vh;
     height: 80vh;
-
 }
 
 .hero-container {
@@ -54,12 +53,12 @@ body {
 .hero-container button:nth-child(1) {
     transition: 1s;
     background-color: #BA5646;
+    border: #BA5646 solid 1px;
 }
 
 .hero-container button:nth-child(1):hover {
     transition: 1s;
-    background-color: #fff;
-    color: #BA5646;
+    background-color: transparent;
 }
 
 .hero-container button:nth-child(2) {
@@ -71,5 +70,5 @@ body {
 
 .hero-container button:nth-child(2):hover {
     transition: 1s;
-    box-shadow: #BA5646 0px 0px 8px 3px;
+    box-shadow: #BA5646 0px 0px 8px 5px;
 }

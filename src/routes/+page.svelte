@@ -12,7 +12,9 @@
         <h1>Chess Openings</h1>
         <p>Explore chess openings and learn how to play them.</p>
         <div>
-            <button>Learn an Opening</button>
+            <a href="/openings">
+                <button>Learn an Opening</button>
+            </a>
             <button>Explore Repertoires</button>
         </div>
     </div>

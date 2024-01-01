@@ -9,7 +9,7 @@
     </a>
 
     <nav class="nav-links">
-        <a href="/">Explore</a>
+        <a href="/openings">Explore</a>
         <a href="/">My Openings</a>
         <a href="/">My Repertoires</a>
         <button>Log In</button>
