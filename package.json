@@ -24,6 +24,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"firebase": "^10.7.1"
+		"firebase": "^10.7.1",
+		"svelte-chess": "^0.11.1"
 	}
 }
