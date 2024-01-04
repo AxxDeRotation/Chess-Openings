@@ -12,7 +12,9 @@
         <a href="/openings">Explore</a>
         <a href="/">My Openings</a>
         <a href="/">My Repertoires</a>
-        <button>Log In</button>
+        <a href="/login">
+            <button>Log In</button>
+        </a>
     </nav>
 </header>
 
